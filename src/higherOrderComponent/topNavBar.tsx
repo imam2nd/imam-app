@@ -1,8 +1,8 @@
 import React from "react";
 
-// interface Props {}
+interface Props {}
 
-const TopNavBar = () => {
+const TopNavBar: React.FC<Props> = () => {
   return (
     <header
       style={{
@@ -12,6 +12,8 @@ const TopNavBar = () => {
         height: "80px",
         borderBottom: "1px solid",
         background: "green",
+        top: 0,
+        position: "sticky",
       }}
     >
       <p style={{ color: "white", fontSize: "15px", fontWeight: 500 }}>

@@ -1,9 +1,9 @@
 import React from "react";
 import TopNavBar from "../../higherOrderComponent/topNavBar";
 
-// interface Props {}
+interface Props {}
 
-const Home = () => {
+const Home: React.FC<Props> = () => {
   return (
     <>
       <TopNavBar />
@@ -16,7 +16,7 @@ const Home = () => {
           alignItems: "center",
         }}
       >
-        <div style={{ position: "top" }}> this is middle section</div>
+        <div> this is middle section</div>
       </div>
     </>
   );
