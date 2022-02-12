@@ -7,15 +7,7 @@ const Home: React.FC<Props> = () => {
   return (
     <>
       <TopNavBar />
-      <div
-        style={{
-          backgroundColor: "white",
-          height: "100vh",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <div className="bg-white h-screen flex justify-center items-center">
         <div> this is middle section</div>
       </div>
     </>
