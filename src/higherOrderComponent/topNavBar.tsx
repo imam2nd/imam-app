@@ -1,11 +1,12 @@
 import React from "react";
+import { MenuIcon } from "@heroicons/react/solid";
 
 interface Props {}
 
 const TopNavBar: React.FC<Props> = () => {
   return (
-    <header className="flex justify-center items-center h-20 bg-primary top-0 sticky">
-      <p className="text-white text-lg font-medium">This is top navbar</p>
+    <header className="flex items-center h-20 top-0 sticky">
+      <MenuIcon className="h-7 w-7 text-gray-800 justify-end mr-3" />
     </header>
   );
 };
